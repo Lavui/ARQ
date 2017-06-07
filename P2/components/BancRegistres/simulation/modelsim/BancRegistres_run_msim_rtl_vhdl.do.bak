@@ -1,0 +1,13 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {/home/comnu/Documents/Q4/ArquitecturaComputadors/P2/Descodificador5.vhd}
+vcom -93 -work work {/home/comnu/Documents/Q4/ArquitecturaComputadors/P2/Registre.vhd}
+vcom -93 -work work {/home/comnu/Documents/Q4/ArquitecturaComputadors/P2/RegistreZero.vhd}
+vcom -93 -work work {/home/comnu/Documents/Q4/ArquitecturaComputadors/P2/RegSortida3Estats.vhd}
+vcom -93 -work work {/home/comnu/Documents/Q4/ArquitecturaComputadors/P2/BancRegistres.vhd}
+

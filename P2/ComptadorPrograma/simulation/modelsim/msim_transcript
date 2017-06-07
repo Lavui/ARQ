@@ -1,0 +1,61 @@
+# do ComptadorPrograma_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying /home/comnu/intelFPGA_lite/16.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {/home/comnu/Documents/Q4/ArquitecturaComputadors/P2/ComptadorPrograma.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:47:03 on Apr 25,2017
+# vcom -reportprogress 300 -93 -work work /home/comnu/Documents/Q4/ArquitecturaComputadors/P2/ComptadorPrograma.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ComptadorPrograma
+# -- Compiling architecture ArqPC of ComptadorPrograma
+# End time: 16:47:04 on Apr 25,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {/home/comnu/Documents/Q4/ArquitecturaComputadors/P2/ComptadorPrograma/simulation/modelsim/ComptadorPrograma.vht}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:47:04 on Apr 25,2017
+# vcom -reportprogress 300 -93 -work work /home/comnu/Documents/Q4/ArquitecturaComputadors/P2/ComptadorPrograma/simulation/modelsim/ComptadorPrograma.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ComptadorPrograma_vhd_tst
+# -- Compiling architecture ComptadorPrograma_arch of ComptadorPrograma_vhd_tst
+# End time: 16:47:04 on Apr 25,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs="+acc"  ComptadorPrograma_vhd_tst
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs=""+acc"" ComptadorPrograma_vhd_tst 
+# Start time: 16:47:04 on Apr 25,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.comptadorprograma_vhd_tst(comptadorprograma_arch)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.comptadorprograma(arqpc)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# FATAL ERROR: Unable to read lock file necessary for use of uncounted nodelocked license. Exiting.
+# End time: 16:52:05 on Apr 25,2017, Elapsed time: 0:05:01
+# Errors: 0, Warnings: 0

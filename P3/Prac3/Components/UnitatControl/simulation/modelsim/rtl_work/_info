@@ -1,0 +1,90 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/comnu/Documents/Q4/ArquitecturaComputadors/P3/Prac3/Components/UnitatControl/simulation/modelsim
+Eunitatcontrol
+Z1 w1492504118
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8/home/comnu/Documents/Q4/ArquitecturaComputadors/P3/Prac3/Components/UnitatControl/UnitatControl.vhd
+Z6 F/home/comnu/Documents/Q4/ArquitecturaComputadors/P3/Prac3/Components/UnitatControl/UnitatControl.vhd
+l0
+L5
+V@YcN4WMdC9I>nLCo?z_CH2
+!s100 VD8o7N]0hPBG88HYkoBde2
+Z7 OV;C;10.5b;63
+31
+Z8 !s110 1492504315
+!i10b 1
+Z9 !s108 1492504314.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|/home/comnu/Documents/Q4/ArquitecturaComputadors/P3/Prac3/Components/UnitatControl/UnitatControl.vhd|
+Z11 !s107 /home/comnu/Documents/Q4/ArquitecturaComputadors/P3/Prac3/Components/UnitatControl/UnitatControl.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Abehav
+R2
+R3
+R4
+DEx4 work 13 unitatcontrol 0 22 @YcN4WMdC9I>nLCo?z_CH2
+l25
+L24
+V4C:@Y?koX7k?bZVW8cUhV3
+!s100 UaaG`;YFg8Mo@Z7ENBHTi3
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eunitatcontrol_vhd_tst
+Z14 w1492504232
+R3
+R4
+R0
+Z15 8/home/comnu/Documents/Q4/ArquitecturaComputadors/P3/Prac3/Components/UnitatControl/simulation/modelsim/UnitatControl.vht
+Z16 F/home/comnu/Documents/Q4/ArquitecturaComputadors/P3/Prac3/Components/UnitatControl/simulation/modelsim/UnitatControl.vht
+l0
+L31
+VhfM=mXTM<0jLXZm:]K9AD2
+!s100 @imU;FDj2dEDJ4:1CZ`>30
+R7
+31
+R8
+!i10b 1
+Z17 !s108 1492504315.000000
+Z18 !s90 -reportprogress|300|-93|-work|work|/home/comnu/Documents/Q4/ArquitecturaComputadors/P3/Prac3/Components/UnitatControl/simulation/modelsim/UnitatControl.vht|
+Z19 !s107 /home/comnu/Documents/Q4/ArquitecturaComputadors/P3/Prac3/Components/UnitatControl/simulation/modelsim/UnitatControl.vht|
+!i113 1
+R12
+R13
+Aunitatcontrol_arch
+R3
+R4
+DEx4 work 21 unitatcontrol_vhd_tst 0 22 hfM=mXTM<0jLXZm:]K9AD2
+l60
+L33
+V[XE`ndFSm0FzmDTIf`f[Q1
+!s100 GCQhAJ1L4`<O^HF?bHE;80
+R7
+31
+R8
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R12
+R13

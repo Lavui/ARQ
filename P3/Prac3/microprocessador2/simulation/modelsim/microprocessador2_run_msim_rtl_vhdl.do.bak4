@@ -1,0 +1,28 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {/home/comnu/Documents/Q4/ArquitecturaComputadors/P3/Prac3/Components/UnitatControl/UnitatControl.vhd}
+vcom -93 -work work {/home/comnu/Documents/Q4/ArquitecturaComputadors/P3/Prac3/Components/ControlALU/ControlALU.vhd}
+vcom -93 -work work {/home/comnu/Documents/Q4/ArquitecturaComputadors/P3/Prac3/sumador.vhd}
+vcom -93 -work work {/home/comnu/Documents/Q4/ArquitecturaComputadors/P3/Prac3/mux2x1_5bits.vhd}
+vcom -93 -work work {/home/comnu/Documents/Q4/ArquitecturaComputadors/P3/Prac3/mux2x1.vhd}
+vcom -93 -work work {/home/comnu/Documents/Q4/ArquitecturaComputadors/P3/Prac3/MemInst.vhd}
+vcom -93 -work work {/home/comnu/Documents/Q4/ArquitecturaComputadors/P3/Prac3/memData.vhd}
+vcom -93 -work work {/home/comnu/Documents/Q4/ArquitecturaComputadors/P3/Prac3/extSig.vhd}
+vcom -93 -work work {/home/comnu/Documents/Q4/ArquitecturaComputadors/P3/Prac3/ComptadorPrograma.vhd}
+vcom -93 -work work {/home/comnu/Documents/Q4/ArquitecturaComputadors/P3/Prac3/BancRegistres.vhd}
+vcom -93 -work work {/home/comnu/Documents/Q4/ArquitecturaComputadors/P3/Prac3/ALU32.vhd}
+vcom -93 -work work {/home/comnu/Documents/Q4/ArquitecturaComputadors/P3/Prac3/microprocessador2/microprocessador2.vhd}
+
+vcom -93 -work work {/home/comnu/Documents/Q4/ArquitecturaComputadors/P3/Prac3/microprocessador2/simulation/modelsim/microprocessador2.vht}
+
+vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs="+acc"  microprocessador2_vhd_tst
+
+add wave *
+view structure
+view signals
+run -all

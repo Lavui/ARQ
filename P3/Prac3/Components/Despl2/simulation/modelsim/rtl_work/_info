@@ -1,0 +1,88 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/comnu/Documents/Q4/ArquitecturaComputadors/P3/Prac3/Components/Despl2/simulation/modelsim
+Edespl2
+Z1 w1492782523
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8/home/comnu/Documents/Q4/ArquitecturaComputadors/P3/Prac3/Components/Despl2/Despl2.vhd
+Z5 F/home/comnu/Documents/Q4/ArquitecturaComputadors/P3/Prac3/Components/Despl2/Despl2.vhd
+l0
+L5
+VU9fm`8ngAFE957`ajB01F3
+!s100 ZiHz4gBFRl^Rd9IDa[7da0
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1492782857
+!i10b 1
+Z8 !s108 1492782857.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|/home/comnu/Documents/Q4/ArquitecturaComputadors/P3/Prac3/Components/Despl2/Despl2.vhd|
+Z10 !s107 /home/comnu/Documents/Q4/ArquitecturaComputadors/P3/Prac3/Components/Despl2/Despl2.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Abehavior
+R2
+R3
+DEx4 work 6 despl2 0 22 U9fm`8ngAFE957`ajB01F3
+l13
+L12
+V1g?[n1LWiOlZRfclHSd262
+!s100 QHCS8PNc27F83MdlcM4ib0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edespl2_vhd_tst
+Z13 w1492782847
+R2
+R3
+R0
+Z14 8/home/comnu/Documents/Q4/ArquitecturaComputadors/P3/Prac3/Components/Despl2/simulation/modelsim/Despl2.vht
+Z15 F/home/comnu/Documents/Q4/ArquitecturaComputadors/P3/Prac3/Components/Despl2/simulation/modelsim/Despl2.vht
+l0
+L31
+Vkm8A`8zYnYZ<lF<cU<fW60
+!s100 IMlaNklW:@UZlRM4`K?f]2
+R6
+31
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|/home/comnu/Documents/Q4/ArquitecturaComputadors/P3/Prac3/Components/Despl2/simulation/modelsim/Despl2.vht|
+Z17 !s107 /home/comnu/Documents/Q4/ArquitecturaComputadors/P3/Prac3/Components/Despl2/simulation/modelsim/Despl2.vht|
+!i113 1
+R11
+R12
+Adespl2_arch
+R2
+R3
+DEx4 work 14 despl2_vhd_tst 0 22 km8A`8zYnYZ<lF<cU<fW60
+l44
+L33
+VYA5d=CTU@TQLQ1Xg[gfkU3
+!s100 a55TZPbHg:ebTC7:LR4Fa0
+R6
+31
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12

@@ -1,0 +1,16 @@
+|ControlALU
+funcio[0] => Control.IN0
+funcio[1] => Control.IN0
+funcio[2] => Control.IN0
+funcio[3] => Control.IN1
+funcio[4] => ~NO_FANOUT~
+funcio[5] => ~NO_FANOUT~
+CodiOP[0] => Control.IN1
+CodiOP[1] => Control.IN1
+CodiOP[1] => Control.IN1
+CodiOP[1] => Control.IN1
+Operacio[0] <= Control.DB_MAX_OUTPUT_PORT_TYPE
+Operacio[1] <= Control.DB_MAX_OUTPUT_PORT_TYPE
+Operacio[2] <= Control.DB_MAX_OUTPUT_PORT_TYPE
+
+

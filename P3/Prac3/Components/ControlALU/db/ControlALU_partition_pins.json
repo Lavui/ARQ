@@ -1,0 +1,45 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Operacio[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Operacio[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Operacio[2]",
+					"strict" : false
+				},
+				{
+					"name" : "CodiOP[1]",
+					"strict" : false
+				},
+				{
+					"name" : "funcio[0]",
+					"strict" : false
+				},
+				{
+					"name" : "funcio[3]",
+					"strict" : false
+				},
+				{
+					"name" : "funcio[2]",
+					"strict" : false
+				},
+				{
+					"name" : "CodiOP[0]",
+					"strict" : false
+				},
+				{
+					"name" : "funcio[1]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

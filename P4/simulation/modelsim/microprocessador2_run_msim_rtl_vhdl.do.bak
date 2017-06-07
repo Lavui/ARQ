@@ -1,0 +1,20 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {/home/comnu/Documents/Q4/ArquitecturaComputadors/P4/Components/UnitatControl.vhd}
+vcom -93 -work work {/home/comnu/Documents/Q4/ArquitecturaComputadors/P4/Components/sumador.vhd}
+vcom -93 -work work {/home/comnu/Documents/Q4/ArquitecturaComputadors/P4/Components/mux2x1_5bits.vhd}
+vcom -93 -work work {/home/comnu/Documents/Q4/ArquitecturaComputadors/P4/Components/mux2x1.vhd}
+vcom -93 -work work {/home/comnu/Documents/Q4/ArquitecturaComputadors/P4/Components/MemInst.vhd}
+vcom -93 -work work {/home/comnu/Documents/Q4/ArquitecturaComputadors/P4/Components/memData.vhd}
+vcom -93 -work work {/home/comnu/Documents/Q4/ArquitecturaComputadors/P4/Components/extSig.vhd}
+vcom -93 -work work {/home/comnu/Documents/Q4/ArquitecturaComputadors/P4/Components/ControlALU.vhd}
+vcom -93 -work work {/home/comnu/Documents/Q4/ArquitecturaComputadors/P4/Components/ComptadorPrograma.vhd}
+vcom -93 -work work {/home/comnu/Documents/Q4/ArquitecturaComputadors/P4/Components/BancRegistres.vhd}
+vcom -93 -work work {/home/comnu/Documents/Q4/ArquitecturaComputadors/P4/Components/ALU32.vhd}
+vcom -93 -work work {/home/comnu/Documents/Q4/ArquitecturaComputadors/P4/microprocessador2.vhd}
+

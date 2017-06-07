@@ -1,0 +1,30 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity bancReg is
+	port(clk   : in STD_LOGIC;
+		 Esc   : in STD_LOGIC;
+		 Rf1   : in STD_LOGIC_VECTOR(4 downto 0); --indiquen els dos registres a llegir
+		 Rf2   : in STD_LOGIC_VECTOR(4 downto 0); --indiquen els dos registres a llegir
+		 Rdest : in STD_LOGIC_VECTOR(4 downto 0); --indica el registre a actualitzar
+		 Dades : in STD_LOGIC_VECTOR(31 downto 0); --indica l'entrada de la informació a escriure sobre el registre Rdest
+		 Sor1  : out STD_LOGIC_VECTOR(31 downto 0); --indica el bus de sortida del registre rf1 que es llegeix
+		 Sor2  : out STD_LOGIC_VECTOR(31 downto 0)); -- indica el bus de sortida del registre rf2 que es llegeix
+end bancReg;
+
+architecture behav of bancReg is
+	type matrix is array (31 downto 0) of std_logic_vector(31 downto 0);
+	signal bancr: matrix := (others => (others => '0'));
+begin
+	process(clk)
+		begin
+		if falling_edge(clk) then
+			if Esc = '1' then
+				bancr(to_integer(unsigned(Rdest))) <= Dades;
+			end if;
+		end if;
+	end process;
+	Sor1 <= bancr(to_integer(unsigned(Rf1)));
+	Sor2 <= bancr(to_integer(unsigned(Rf2)));
+end architecture behav;

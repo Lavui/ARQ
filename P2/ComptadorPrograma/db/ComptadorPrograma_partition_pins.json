@@ -1,0 +1,273 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Dout[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout[10]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout[11]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout[12]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout[13]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout[14]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout[15]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout[16]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout[17]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout[18]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout[19]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout[20]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout[21]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout[22]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout[23]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout[24]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout[25]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout[26]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout[27]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout[28]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout[29]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout[30]",
+					"strict" : false
+				},
+				{
+					"name" : "Dout[31]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Reset",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "Din[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[10]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[11]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[12]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[13]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[14]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[15]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[16]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[17]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[18]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[19]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[20]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[21]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[22]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[23]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[24]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[25]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[26]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[27]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[28]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[29]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[30]",
+					"strict" : false
+				},
+				{
+					"name" : "Din[31]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

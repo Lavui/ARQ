@@ -1,0 +1,62 @@
+library ieee;
+    use ieee.std_logic_1164.all;
+    use ieee.numeric_std.all;
+
+entity BancRegistres is
+    port (
+        Rf1: signed(4 downto 0); -- registres font
+        Rf2: signed(4 downto 0);
+        Rdest: signed(4 downto 0); -- registre destí
+
+        Sor1 : out signed(31 dowto 0); -- registres sortida
+        Sor2 : out signed(31 dowto 0)
+
+        Dades: in signed(31 dowto 0); -- registre de dades
+        -- indica entrada informació a escriure sobre Rdest
+
+        Esc : in STD_LOGIC; -- si 1 llegim dades i escrivim a rdest
+        -- captura la dada de Dades i emmagatzema en Rdest
+
+        clk : in STD_LOGIC; -- sincronitza escriptura en registres
+    );
+end BancRegistres;
+
+architecture Behavioral of BancRegistres is -- comportament del B.R.
+    component RegSortida3Estats is
+        Port (
+            E1    : in STD_LOGIC; -- identifiquen bus sortida
+            E2    : in STD_LOGIC;
+            Din   : in STD_LOGIC_VECTOR (31 downto 0); -- ídem Dades
+
+            Dout1 : out STD_LOGIC_VECTOR (31 downto 0); -- camí de dades
+            Dout2 : out STD_LOGIC_VECTOR (31 downto 0); 
+
+            WE    : in STD_LOGIC; -- habilita escriptura en algun dels registres
+
+            Reset : in STD_LOGIC;
+
+            clk   : in STD_LOGIC; -- definit en flanc de baixada
+        );
+    end component;
+
+    component RegistreZero is
+        Port (
+            --ports here
+        );
+    end component;
+    -- si es fa el registre de forma comportamental dins de la definició d'arquitectura no farà falta la definició del component
+    component Descodificador5 is
+        Port (
+            Habilitacio: in STD_LOGIC;
+            Ent : in STD_LOGIC_VECTOR (4 downto 0);
+            Sort : out STD_LOGIC_VECTOR (31 downto 0)
+        );
+    end component;
+    signal RegSel1: STD_LOGIC_VECTOR (31 downto 0);
+    signal RegSel2: STD_LOGIC_VECTOR (31 downto 0);
+    signal RegEsc: STD_LOGIC_VECTOR(31 downto 0);
+    begin
+    dec1: Descodificador5 port map (..., ...,...);
+    dec2: Descodificador5 port map (...,...,...);
+    dec3: Descodificador5 port map (...,...,...);
+end architecture;

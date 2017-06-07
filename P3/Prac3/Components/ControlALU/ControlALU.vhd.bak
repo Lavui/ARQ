@@ -1,0 +1,108 @@
+library ieee;
+    use ieee.std_logic_1164.all;
+    use ieee.numeric_std.all;
+
+entity ControlALU is
+	Port (
+		funcio : in STD_LOGIC_VECTOR (5 downto 0);
+		CodiOP : in STD_LOGIC_VECTOR (1 downto 0);
+		ControlALU : out STD_LOGIC_VECTOR (2 downto 0)
+	);
+end ControlALU;
+
+
+
+architecture behav of ControlALU is
+begin
+	process (co)
+	begin
+		case co is
+			when "000000" =>  --Tipus R -> add, sub, and, or, nop fet
+				RegDest	<= '1';
+				SaltInc	<= '0';
+				MemaReg	<= '0';
+				LlegMem	<= '0';
+				EscrMem	<= '0';
+				SaltCon	<= '0';
+				FontALU	<= '0';
+				ALUOP		<= "10";
+				EscrReg	<= '1';
+				
+			when "001000" =>  --Tipus I -> addi fet
+				RegDest	<= '0';
+				SaltInc	<= '0';
+				MemaReg	<= '0';
+				LlegMem	<= '0';
+				EscrMem	<= '0';
+				SaltCon	<= '0';
+				FontALU	<= '1';
+				ALUOP		<= "10";
+				EscrReg	<= '1';
+				
+			when "100011" =>  --Tipus I -> lw fet
+				RegDest	<= '0';
+				SaltInc	<= '0';
+				MemaReg	<= '1';
+				LlegMem	<= '1';
+				EscrMem	<= '0';
+				SaltCon	<= '0';
+				FontALU	<= '1';
+				ALUOP		<= "00";
+				EscrReg	<= '1';
+				
+			when "101011" =>  --Tipus I -> sw fet
+				RegDest	<= '0';
+				SaltInc	<= '0';
+				MemaReg	<= '0';
+				LlegMem	<= '0';
+				EscrMem	<= '1';
+				SaltCon	<= '0';
+				FontALU	<= '1';
+				ALUOP		<= "00";
+				EscrReg	<= '0';
+				
+			when "000100" =>  --Tipus I -> bne fet
+				RegDest	<= '0';
+				SaltInc	<= '0';
+				MemaReg	<= '0';
+				LlegMem	<= '0';
+				EscrMem	<= '0';
+				SaltCon	<= '1';
+				FontALU	<= '0';
+				ALUOP		<= "01";
+				EscrReg	<= '1';
+
+			when "001010" =>  --Tipus I -> slti fet
+				RegDest	<= '0';
+				SaltInc	<= '0';
+				MemaReg	<= '0';
+				LlegMem	<= '0';
+				EscrMem	<= '0';
+				SaltCon	<= '0';
+				FontALU	<= '1';
+				ALUOP		<= "11";
+				EscrReg	<= '1';
+
+			when "000010" =>  --Tipus J -> J fet
+				RegDest	<= '0';
+				SaltInc	<= '1';
+				MemaReg	<= '0';
+				LlegMem	<= '0';
+				EscrMem	<= '0';
+				SaltCon	<= '0';
+				FontALU	<= '0';
+				ALUOP		<= "00";
+				EscrReg	<= '0';
+			when others =>
+				RegDest	<= '0';
+				SaltInc	<= '0';
+				MemaReg	<= '0';
+				LlegMem	<= '0';
+				EscrMem	<= '0';
+				SaltCon	<= '0';
+				FontALU	<= '0';
+				ALUOP		<= "00";
+				EscrReg	<= '0';
+		end case;
+	end process;
+end behav;

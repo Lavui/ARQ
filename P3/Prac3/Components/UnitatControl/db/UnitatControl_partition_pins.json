@@ -1,0 +1,73 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "RegDest",
+					"strict" : false
+				},
+				{
+					"name" : "SaltInc",
+					"strict" : false
+				},
+				{
+					"name" : "MemaReg",
+					"strict" : false
+				},
+				{
+					"name" : "LlegMem",
+					"strict" : false
+				},
+				{
+					"name" : "EscrMem",
+					"strict" : false
+				},
+				{
+					"name" : "SaltCon",
+					"strict" : false
+				},
+				{
+					"name" : "FontALU",
+					"strict" : false
+				},
+				{
+					"name" : "ALUOP[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUOP[1]",
+					"strict" : false
+				},
+				{
+					"name" : "EscrReg",
+					"strict" : false
+				},
+				{
+					"name" : "co[4]",
+					"strict" : false
+				},
+				{
+					"name" : "co[5]",
+					"strict" : false
+				},
+				{
+					"name" : "co[0]",
+					"strict" : false
+				},
+				{
+					"name" : "co[3]",
+					"strict" : false
+				},
+				{
+					"name" : "co[2]",
+					"strict" : false
+				},
+				{
+					"name" : "co[1]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,129 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/comnu/Documents/Q4/ArquitecturaComputadors/P2/components/RegSortida3Estats/simulation/modelsim
+Eregistre
+Z1 w1490108881
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8/home/comnu/Documents/Q4/ArquitecturaComputadors/P2/Registre.vhd
+Z6 F/home/comnu/Documents/Q4/ArquitecturaComputadors/P2/Registre.vhd
+l0
+L5
+Vl4nX=]lZ@X_c=Lb`Mz?:z3
+!s100 3^KI@`6Q^ClTBMQD[;1bJ0
+Z7 OV;C;10.5b;63
+31
+Z8 !s110 1490176372
+!i10b 1
+Z9 !s108 1490176372.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|/home/comnu/Documents/Q4/ArquitecturaComputadors/P2/Registre.vhd|
+Z11 !s107 /home/comnu/Documents/Q4/ArquitecturaComputadors/P2/Registre.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+DEx4 work 8 registre 0 22 l4nX=]lZ@X_c=Lb`Mz?:z3
+l16
+L15
+Vm5<ElLoPhO26hl@=ZmgUV0
+!s100 =Mc]Ve3FgEnaBfiN`YcBb1
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eregsortida3estats
+Z14 w1490171570
+R3
+R4
+R0
+Z15 8/home/comnu/Documents/Q4/ArquitecturaComputadors/P2/RegSortida3Estats.vhd
+Z16 F/home/comnu/Documents/Q4/ArquitecturaComputadors/P2/RegSortida3Estats.vhd
+l0
+L4
+VM2gSQ@C<IlKcA0O1alW8K2
+!s100 ccScY2a11H:JjC=?OP@?[2
+R7
+31
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-93|-work|work|/home/comnu/Documents/Q4/ArquitecturaComputadors/P2/RegSortida3Estats.vhd|
+Z18 !s107 /home/comnu/Documents/Q4/ArquitecturaComputadors/P2/RegSortida3Estats.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R3
+R4
+DEx4 work 17 regsortida3estats 0 22 M2gSQ@C<IlKcA0O1alW8K2
+l29
+L17
+VNP7n1L@aYVMUnc^OndnZi0
+!s100 1g^M]hi;Q6RM=o5Yb>7EG2
+R7
+31
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Eregsortida3estats_vhd_tst
+Z19 w1490176356
+R3
+R4
+R0
+Z20 8/home/comnu/Documents/Q4/ArquitecturaComputadors/P2/components/RegSortida3Estats/simulation/modelsim/RegSortida3Estats.vht
+Z21 F/home/comnu/Documents/Q4/ArquitecturaComputadors/P2/components/RegSortida3Estats/simulation/modelsim/RegSortida3Estats.vht
+l0
+L31
+Vo=QLMP1lRAGniMbM80KR;2
+!s100 1lFI5_:z@K[TPIi0Mz44o3
+R7
+31
+R8
+!i10b 1
+R9
+Z22 !s90 -reportprogress|300|-93|-work|work|/home/comnu/Documents/Q4/ArquitecturaComputadors/P2/components/RegSortida3Estats/simulation/modelsim/RegSortida3Estats.vht|
+Z23 !s107 /home/comnu/Documents/Q4/ArquitecturaComputadors/P2/components/RegSortida3Estats/simulation/modelsim/RegSortida3Estats.vht|
+!i113 1
+R12
+R13
+Aregsortida3estats_arch
+R3
+R4
+DEx4 work 25 regsortida3estats_vhd_tst 0 22 o=QLMP1lRAGniMbM80KR;2
+l56
+L33
+VUiFm5UVVX4b3N_U8e2?Z31
+!s100 >@JM@4l[G^Q^3h4h1E3aJ1
+R7
+31
+R8
+!i10b 1
+R9
+R22
+R23
+!i113 1
+R12
+R13
